@@ -4,4 +4,4 @@
 
 import Turtle
 
-main = echo "Hello, World!"
+main = echo "Hello, World"
