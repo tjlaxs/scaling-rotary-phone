@@ -12,4 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: nix-shell -p stack --run "stack --version"
+    - uses: haskell/actions/setup@v1
+      with:
+        enable-stack: true
+    - run: "stack --version"
